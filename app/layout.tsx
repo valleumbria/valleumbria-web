@@ -14,7 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Café Valle Umbría",
-  description: "Café de especialidad colombiano con origen en las montañas de Granada y Andes, Antioquia.",
+  description:
+    "Café de especialidad colombiano con origen en las montañas de Granada y Andes, Antioquia.",
+  verification: {
+    google: "Yt3RYIBuyVKIFKHbA-O9JW5MytjMxO2eGCOUrCumHac",
+  },
 };
 
 export default function RootLayout({
