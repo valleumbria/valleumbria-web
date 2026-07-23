@@ -7,7 +7,7 @@ export default function Hero() {
 
         <div>
           <Image
-            src="/f951b2f4-de64-4b7c-ae59-d7688ca02ee3.jpeg"
+            src="/logo.jpeg"
             alt="Valle Umbría"
             width={180}
             height={180}
@@ -51,7 +51,7 @@ export default function Hero() {
 
         <div>
           <Image
-            src="/3124532e-a97c-4926-b022-e04f1f61f721.jpeg"
+            src="/bolsa.jpeg"
             alt="Café Valle Umbría"
             width={700}
             height={700}
