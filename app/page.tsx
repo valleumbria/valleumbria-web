@@ -5,13 +5,19 @@ import Products from "./components/Products";
 import Benefits from "./components/Benefits";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 export default function Home() {
   return (
     <main>
       <Navbar />
       <Hero />
+      <Story />
       <Products />
+      <Benefits />
+      <Contact />
+      <Footer />
+      <WhatsAppButton />
 
       <section
         id="historia"
