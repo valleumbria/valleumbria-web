@@ -43,11 +43,12 @@ export default function Hero() {
             </a>
           </div>
         </div>
-<div className="mt-8 flex gap-6">
+<div className="mt-8 flex flex-wrap gap-4">
+
   <a
     href="https://wa.me/573122820001"
     target="_blank"
-    className="text-green-600 font-semibold hover:underline"
+    className="rounded-xl bg-green-600 px-5 py-3 text-white font-semibold transition hover:bg-green-700"
   >
     WhatsApp
   </a>
@@ -55,10 +56,11 @@ export default function Hero() {
   <a
     href="https://instagram.com/valleumbriacafe"
     target="_blank"
-    className="text-amber-700 font-semibold hover:underline"
+    className="rounded-xl border border-amber-700 px-5 py-3 font-semibold text-amber-700 transition hover:bg-amber-700 hover:text-white"
   >
     Instagram
   </a>
+
 </div>
         <div className="flex justify-center">
           <Image
