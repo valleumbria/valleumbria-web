@@ -48,7 +48,7 @@ export default function Products() {
               href="#"
               className="inline-block mt-8 text-amber-700 font-semibold"
             >
-              Próximamente →
+              Pedir por WhatsApp →
             </a>
 
           </div>
@@ -75,7 +75,7 @@ export default function Products() {
               href="#"
               className="inline-block mt-8 text-amber-700 font-semibold"
             >
-              Próximamente →
+              Pedir por WhatsApp →
             </a>
 
           </div>
@@ -102,7 +102,7 @@ export default function Products() {
               href="#"
               className="inline-block mt-8 text-amber-700 font-semibold"
             >
-              Próximamente →
+              Pedir por WhatsApp →
             </a>
 
           </div>
