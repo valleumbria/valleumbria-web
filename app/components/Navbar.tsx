@@ -12,8 +12,8 @@ export default function Navbar() {
           <Image
             src="/logo.jpeg"
             alt="Valle Umbría"
-            width={80}
-            height={80}
+            width={90}
+            height={90}
             className="rounded-xl object-contain"
             priority
           />
