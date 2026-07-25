@@ -14,49 +14,39 @@ export default function Navbar() {
             alt="Valle Umbría"
             width={90}
             height={90}
-            className="rounded-xl object-contain"
+            className="rounded-full"
             priority
           />
 
           <div>
-            <h1 className="text-2xl font-bold text-stone-900 leading-none">
+
+            <h1 className="text-3xl font-extrabold text-stone-900 leading-none">
               Valle Umbría
             </h1>
 
-            <p className="text-sm text-stone-500 mt-1">
+            <p className="mt-1 text-sm tracking-wide text-stone-500">
               Café de Especialidad Colombiano
             </p>
+
           </div>
 
         </a>
 
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
 
-          <a
-            href="/"
-            className="hover:text-amber-700 transition"
-          >
+          <a href="/" className="hover:text-amber-700 transition">
             Inicio
           </a>
 
-          <a
-            href="#productos"
-            className="hover:text-amber-700 transition"
-          >
+          <a href="#productos" className="hover:text-amber-700 transition">
             Cafés
           </a>
 
-          <a
-            href="#historia"
-            className="hover:text-amber-700 transition"
-          >
+          <a href="#historia" className="hover:text-amber-700 transition">
             Nuestra Historia
           </a>
 
-          <a
-            href="#contacto"
-            className="hover:text-amber-700 transition"
-          >
+          <a href="#contacto" className="hover:text-amber-700 transition">
             Contacto
           </a>
 
@@ -64,7 +54,7 @@ export default function Navbar() {
             href="https://instagram.com/valleumbriacafe"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-amber-700 font-semibold hover:underline"
+            className="text-amber-700 hover:underline"
           >
             Instagram
           </a>
