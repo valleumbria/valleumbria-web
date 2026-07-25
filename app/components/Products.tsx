@@ -45,10 +45,12 @@ export default function Products() {
             </p>
 
             <a
-              href="#"
+              href="https://wa.me/573122820001?text=Hola,%20quiero%20comprar%20café%20Valle%20Umbría"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block mt-8 text-amber-700 font-semibold"
             >
-              Pedir por WhatsApp →
+              comprar ahora →
             </a>
 
           </div>
@@ -72,10 +74,12 @@ export default function Products() {
             </p>
 
             <a
-              href="#"
+              href="https://wa.me/573122820001?text=Hola,%20quiero%20comprar%20café%20Valle%20Umbría"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block mt-8 text-amber-700 font-semibold"
             >
-              Pedir por WhatsApp →
+              comprar ahora →
             </a>
 
           </div>
@@ -99,10 +103,12 @@ export default function Products() {
             </p>
 
             <a
-              href="#"
+              href="https://wa.me/573122820001?text=Hola,%20quiero%20comprar%20café%20Valle%20Umbría"
+target="_blank"
+rel="noopener noreferrer"
               className="inline-block mt-8 text-amber-700 font-semibold"
             >
-              Pedir por WhatsApp →
+              comprar ahora →
             </a>
 
           </div>
