@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,69 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://valleumbria.com"),
-
-  title: {
-    default: "Valle Umbría | Café de Especialidad Colombiano",
-    template: "%s | Valle Umbría",
-  },
-
+  title: "Café Valle Umbría",
   description:
-    "Café de especialidad colombiano cultivado en Granada y Andes, Antioquia. Procesos Lavado, Honey y Natural con envío a toda Colombia.",
-
-  keywords: [
-    "café de especialidad",
-    "café colombiano",
-    "Valle Umbría",
-    "café Antioquia",
-    "café Granada Antioquia",
-    "café Honey",
-    "café Natural",
-    "café Lavado",
-    "comprar café",
-    "café premium",
-  ],
-
-  authors: [
-    {
-      name: "Valle Umbría",
-    },
-  ],
-
-  creator: "Valle Umbría",
-
-  openGraph: {
-    title: "Valle Umbría | Café de Especialidad Colombiano",
-    description:
-      "Descubre nuestros cafés Lavado, Honey y Natural cultivados en las montañas de Antioquia.",
-    url: "https://valleumbria.com",
-    siteName: "Valle Umbría",
-    locale: "es_CO",
-    type: "website",
-    images: [
-      {
-        url: "/logo.jpeg",
-        width: 1200,
-        height: 1200,
-        alt: "Valle Umbría",
-      },
-    ],
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "Valle Umbría | Café de Especialidad Colombiano",
-    description:
-      "Café de especialidad colombiano cultivado en Antioquia.",
-    images: ["/logo.jpeg"],
-  },
-
-  icons: {
-    icon: "/logo.jpeg",
-    shortcut: "/logo.jpeg",
-    apple: "/logo.jpeg",
-  },
-
+    "Café de especialidad colombiano con origen en las montañas de Granada y Andes, Antioquia.",
   verification: {
     google: "Yt3RYIBuyVKIFKHbA-O9JW5MytjMxO2eGCOUrCumHac",
   },
@@ -93,7 +34,21 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         {children}
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-C5XE4CKPNN"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-C5XE4CKPNN');
+          `}
+        </Script>
       </body>
     </html>
   );
-} 
+}
